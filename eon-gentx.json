@@ -1,0 +1,41 @@
+{
+	"type": "auth/StdTx",
+	"value": {
+		"msg": [{
+			"type": "cosmos-sdk/MsgCreateValidator",
+			"value": {
+				"description": {
+					"moniker": "eon",
+					"identity": "",
+					"website": "",
+					"details": ""
+				},
+				"commission": {
+					"rate": "0.100000000000000000",
+					"max_rate": "0.200000000000000000",
+					"max_change_rate": "0.010000000000000000"
+				},
+				"min_self_delegation": "1",
+				"delegator_address": "sent108alzw4sntkj3g8690lfvs93jchcgn6menm0ak",
+				"validator_address": "sentvaloper108alzw4sntkj3g8690lfvs93jchcgn6mxkyzjl",
+				"pubkey": "sentvalconspub1zcjduepqmrlj2jxq3k2dzz9406wp8aeup7xrpnn4v5jd7c7d6h4qap0rs94sr6d0h7",
+				"value": {
+					"denom": "tsent",
+					"amount": "10000000000"
+				}
+			}
+		}],
+		"fee": {
+			"amount": null,
+			"gas": "200000"
+		},
+		"signatures": [{
+			"pub_key": {
+				"type": "tendermint/PubKeySecp256k1",
+				"value": "AiMKxMNjDmQnSIsQ29IZ4zsoZhBfCN70XlwvgSS7pyul"
+			},
+			"signature": "mpXJCzoL/TK5m1w0ez2Ooh1E9dQvrgzXD4iYjQbK4rQo1yIeraFPvORHHDP3xjl3o9RG03ZxXk1hJk6N2EwxwQ=="
+		}],
+		"memo": "aa4cc4ba08a22b25f0ea9c12aceec0be892595e2@145.239.224.187:26656"
+	}
+}
