@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-11-27T11:30:00.0Z",
+  "genesis_time": "2019-11-27T12:00:00.0Z",
   "chain_id": "sentinel-turing-2",
   "consensus_params": {
     "block": {
