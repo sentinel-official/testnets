@@ -132,7 +132,7 @@
       }
     }
   },
-  "chain_id": "sentinel-turing-3",
+  "chain_id": "sentinel-turing-3a",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
