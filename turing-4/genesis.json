@@ -170,6 +170,13 @@
             "end_time": "1640025296"
           },
           "start_time": "1620025386"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "sent180ca4g9nd9jjz96q8st9ux00g20r2cpavs669j",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -217,6 +224,15 @@
         },
         {
           "address": "sent1xcjhymt60dwzz54mp2wc9shtzzxsgah4g0jjd6",
+          "coins": [
+            {
+              "denom": "tsent",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sent180ca4g9nd9jjz96q8st9ux00g20r2cpavs669j",
           "coins": [
             {
               "denom": "tsent",
@@ -327,7 +343,7 @@
       "supply": [
         {
           "denom": "tsent",
-          "amount": "65000100000000"
+          "amount": "66000100000000"
         }
       ],
       "denom_metadata": []
