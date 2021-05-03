@@ -128,6 +128,48 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "sent19k6chtdt88rvcw9g0tkkmrjmh9rxwa3j9rmx3u",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "tsent",
+                "amount": "1000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1640025296"
+          },
+          "start_time": "1620025386"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "sent1jw0am6c7vhgka7vwf0p2ldt7u9e8qwhj80tw8m",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "tsent",
+                "amount": "1000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1640025296"
+          },
+          "start_time": "1620025386"
         }
       ]
     },
@@ -161,6 +203,15 @@
             {
               "denom": "tsent",
               "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sent19k6chtdt88rvcw9g0tkkmrjmh9rxwa3j9rmx3u",
+          "coins": [
+            {
+              "denom": "tsent",
+              "amount": "1000000000000"
             }
           ]
         },
@@ -206,6 +257,15 @@
             {
               "denom": "tsent",
               "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "sent1jw0am6c7vhgka7vwf0p2ldt7u9e8qwhj80tw8m",
+          "coins": [
+            {
+              "denom": "tsent",
+              "amount": "1000100000000"
             }
           ]
         },
@@ -267,7 +327,7 @@
       "supply": [
         {
           "denom": "tsent",
-          "amount": "63000000000000"
+          "amount": "65000100000000"
         }
       ],
       "denom_metadata": []
@@ -1199,9 +1259,9 @@
     "swap": {
       "swaps": [],
       "params": {
-        "swap_enabled": false,
+        "swap_enabled": true,
         "swap_denom": "tsent",
-        "approve_by": "sent17hmkpy7dpvphz9anf50l7q96w8fqzmgahe406h"
+        "approve_by": "sent180ca4g9nd9jjz96q8st9ux00g20r2cpavs669j"
       }
     },
     "transfer": {
